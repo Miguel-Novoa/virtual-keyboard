@@ -1,0 +1,32 @@
+:root{
+    --mediumKeyBackground :#cfccccee;
+    --smallKeyBackground : #FFFFFF;
+    --spacebarBackground : #FFFFFF;
+    --keyBorder : #909590;
+}
+
+.textZoneLight{
+    border: 2px solid black;
+}
+
+.keyboardStyleLight{
+    border: 3px solid #909590;
+}
+
+.mediumKeyStyleLight{
+    background-color: var(--mediumKeyBackground);
+    border-radius: 5px;
+    border: 2px solid var(--keyBorder);
+}
+
+.smallKeyStyleLight{
+    background-color: var(--smallKeyBackground);
+    border-radius: 5px;
+    border: 2px solid var(--keyBorder);
+}
+
+.spacebarStyleLight{
+    background-color: var(--spacebarBackground);
+    border-radius: 5px;
+    border: 2px solid var(--keyBorder);
+}

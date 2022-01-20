@@ -1,0 +1,51 @@
+:root{
+    --mediumKeyBackgroundNight :#09ff00ee;
+    --smallKeyBackgroundNight : #333635;
+    --spacebarBackgroundNight : #333635;
+    --keyBorderNight : #09ff00ee;
+    --keyboardBackgroundNight: #333635;
+    --nightFontColor : #09ff00ee;
+}
+
+.headerNight{
+    background-color: var(--keyboardBackgroundNight);
+    color: var(--nightFontColor);
+}
+
+.mainNight{
+    background-color: #191b18;
+}
+
+.textZoneNight{
+    background-color: var(--keyboardBackgroundNight);
+    color: var(--nightFontColor);
+    border: 2px solid var(--keyBorderNight);
+}
+
+.keyboardStyleNight{
+    background-color: var(--keyboardBackgroundNight);
+    border: 3px solid var(--keyBorderNight);
+}
+
+.mediumKeyStyleNight{
+    background-color: var(--mediumKeyBackgroundNight);
+    border-radius: 5px;
+    border: 2px solid var(--keyBorderNight);
+}
+
+.smallKeyStyleNight{
+    background-color: var(--smallKeyBackgroundNight);
+    border-radius: 5px;
+    border: 2px solid var(--keyBorderNight);
+    color: var(--nightFontColor);
+}
+
+.spacebarStyleNight{
+    background-color: var(--spacebarBackgroundNight);
+    border-radius: 5px;
+    border: 2px solid var(--keyBorderNight);
+}
+
+.switchBtnTitle{
+    color: var(--nightFontColor);
+}
