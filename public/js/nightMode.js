@@ -10,10 +10,9 @@ const textZone = document.querySelector('#text');
 
 const switchActivation = () =>{
     if(switchInput.checked == true){
-        console.log('switch');
         smallKeys.forEach(function(key){
             key.classList.remove('smallKeyStyleLight');
-            key.classList.add('smallKeyStyleNight')
+            key.classList.add('smallKeyStyleNight');
         });
 
         mediumKeys.forEach(function(key){
@@ -33,7 +32,6 @@ const switchActivation = () =>{
         textZone.classList.add('textZoneNight');
         textZone.classList.remove('textZoneLight');
     }else{
-        console.log('error')
         smallKeys.forEach(function(key){
             key.classList.remove('smallKeyStyleNight');
             key.classList.add('smallKeyStyleLight')

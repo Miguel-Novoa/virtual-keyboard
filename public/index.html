@@ -15,7 +15,7 @@
     </header>
     <main>
         <section id="textZone">
-            <input type="text" name="text" id="text">
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
         </section>
         <section id="keyboard" class="keyboardStyleLight">
             <div id="firstLine">
@@ -29,42 +29,45 @@
                 <div class="smallKey smallKeyStyleLight"><p>8</p></div>
                 <div class="smallKey smallKeyStyleLight"><p>9</p></div>
                 <div class="smallKey smallKeyStyleLight"><p>0</p></div>
-                <div class="mediumKey mediumKeyStyleLight"><p>←</p></div>
+                <div id="backspace" class="mediumKey mediumKeyStyleLight"><p>←</p></div>
             </div>
             <div id="secondLine">
-                <div class="smallKey smallKeyStyleLight"><p>Q</p></div>
-                <div class="smallKey smallKeyStyleLight"><p>W</p></div>
-                <div class="smallKey smallKeyStyleLight"><P>E</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>R</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>T</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>Y</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>U</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>I</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>O</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>P</P></div>
+                <div class="smallKey smallKeyStyleLight"><p>q</p></div>
+                <div class="smallKey smallKeyStyleLight"><p>w</p></div>
+                <div class="smallKey smallKeyStyleLight"><P>e</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>r</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>t</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>y</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>u</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>i</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>o</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>p</P></div>
             </div>
             <div id="thirdLine">
-                <div class="mediumKey mediumKeyStyleLight"><img id="cadenas" src="./images/cadenas.png" alt="cadenas"></div>
-                <div class="smallKey smallKeyStyleLight"><P>A</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>S</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>D</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>F</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>G</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>H</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>J</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>K</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>L</P></div>
-                <div class="mediumKey mediumKeyStyleLight"><P>↵</P></div>
+                <div id="capslock" class="mediumKey mediumKeyStyleLight">
+                    <img id="cadenas" src="./images/cadenas.png" alt="cadenas">
+                    <p id="capslockIndicator">●</p>
+                </div>
+                <div class="smallKey smallKeyStyleLight"><P>a</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>s</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>d</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>f</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>g</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>h</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>j</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>k</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>l</P></div>
+                <div id="enter" class="mediumKey mediumKeyStyleLight"><P>↵</P></div>
             </div>
             <div id="fourthLine">
-                <div class="mediumKey mediumKeyStyleLight"><P>↑</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>Z</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>X</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>C</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>V</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>B</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>N</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>M</P></div>
+                <div id="maj" class="mediumKey mediumKeyStyleLight"><P>↑</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>z</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>x</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>c</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>v</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>b</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>n</P></div>
+                <div class="smallKey smallKeyStyleLight"><P>m</P></div>
                 <div class="smallKey smallKeyStyleLight"><P>,</P></div>
                 <div class="smallKey smallKeyStyleLight"><P>.</P></div>
                 <div class="smallKey smallKeyStyleLight"><P>?</P></div>
@@ -80,5 +83,6 @@
         </section>
     </main>
     <script src="./js/nightMode.js"></script>
+    <script src="./js/keyboard.js"></script>
 </body>
 </html>

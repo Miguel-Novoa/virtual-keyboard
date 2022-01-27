@@ -33,6 +33,12 @@
     border: 2px solid var(--keyBorderNight);
 }
 
+.mediumKeyStyleNight:hover{
+    box-shadow: 0px 0px 5px 1px rgba(9,255,0,0.74);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(9,255,0,0.74);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(9,255,0,0.74);    
+}
+
 .smallKeyStyleNight{
     background-color: var(--smallKeyBackgroundNight);
     border-radius: 5px;
@@ -40,10 +46,22 @@
     color: var(--nightFontColor);
 }
 
+.smallKeyStyleNight:hover{
+    box-shadow: 0px 0px 5px 1px rgba(9,255,0,0.74);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(9,255,0,0.74);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(9,255,0,0.74);
+}
+
 .spacebarStyleNight{
     background-color: var(--spacebarBackgroundNight);
     border-radius: 5px;
     border: 2px solid var(--keyBorderNight);
+}
+
+.spacebarStyleNight:hover{
+    box-shadow: 0px 0px 5px 1px rgba(9,255,0,0.74);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(9,255,0,0.74);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(9,255,0,0.74);
 }
 
 .switchBtnTitle{
