@@ -7,10 +7,10 @@ const capslockIndicator = document.querySelector('#capslockIndicator');
 let capslockState = 'lowercase';
 let majState = 'lowercase';
 
+//Ajout texte des petites touches lorsque cliquées dessus
 smallKeys.forEach(key => key.addEventListener('click', ()=>{
     textZone.value = textZone.value + key.querySelector('p').innerHTML;
     if(majState == 'uppercase'){
-        console.log(majStateHandler.innerHTML)
         majState = 'lowercase'
         smallKeys.forEach(key => key.querySelector('p').innerHTML = key.querySelector('p').innerHTML.toLowerCase());
     };
@@ -26,11 +26,11 @@ backspace.addEventListener('click', ()=>{
 });
 
 enter.addEventListener('click', ()=>{
-    console.log('click')
     textZone.value = textZone.value + '\r\n';
 })
 
 capslock.addEventListener('click', ()=>{
+    capslockIndicator.style.display = 'none';
     switch(capslockState){
         case 'lowercase' :
             smallKeys.forEach(key => key.querySelector('p').innerHTML = key.querySelector('p').innerHTML.toUpperCase());

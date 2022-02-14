@@ -5,7 +5,8 @@ const spacebar = document.querySelector('#spacebar');
 const keyboard = document.querySelector('#keyboard');
 const main = document.querySelector('main');
 const header = document.querySelector('header');
-const switchTitle = document.querySelector('#switchTitle');
+const switchNightTitle = document.querySelector('#switchTitle');
+const switchKeysTitle = document.querySelector('#switchKeysTitle');
 const textZone = document.querySelector('#text');
 
 const switchActivation = () =>{
@@ -28,7 +29,8 @@ const switchActivation = () =>{
 
         main.classList.add('mainNight');
         header.classList.add('headerNight');
-        switchTitle.classList.add('switchBtnTitle');
+        switchNightTitle.classList.add('switchBtnTitle');
+        switchKeysTitle.classList.add('switchBtnTitle');
         textZone.classList.add('textZoneNight');
         textZone.classList.remove('textZoneLight');
     }else{
@@ -50,7 +52,8 @@ const switchActivation = () =>{
 
         main.classList.remove('mainNight');
         header.classList.remove('headerNight');
-        switchTitle.classList.remove('switchBtnTitle');
+        switchNightTitle.classList.remove('switchBtnTitle');
+        switchKeysTitle.classList.remove('switchBtnTitle');
         textZone.classList.remove('textZoneNight');
         textZone.classList.add('textZoneLight');
     };

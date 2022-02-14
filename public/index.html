@@ -32,57 +32,67 @@
                 <div id="backspace" class="mediumKey mediumKeyStyleLight"><p>←</p></div>
             </div>
             <div id="secondLine">
-                <div class="smallKey smallKeyStyleLight"><p>q</p></div>
-                <div class="smallKey smallKeyStyleLight"><p>w</p></div>
-                <div class="smallKey smallKeyStyleLight"><P>e</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>r</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>t</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>y</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>u</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>i</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>o</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>p</P></div>
+                <div class="smallKey smallKeyStyleLight"><p class="letters">q</p></div>
+                <div class="smallKey smallKeyStyleLight"><p class="letters">w</p></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">e</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">r</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">t</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">y</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">u</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">i</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">o</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">p</P></div>
             </div>
             <div id="thirdLine">
                 <div id="capslock" class="mediumKey mediumKeyStyleLight">
                     <img id="cadenas" src="./images/cadenas.png" alt="cadenas">
                     <p id="capslockIndicator">●</p>
                 </div>
-                <div class="smallKey smallKeyStyleLight"><P>a</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>s</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>d</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>f</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>g</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>h</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>j</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>k</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>l</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">a</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">s</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">d</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">f</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">g</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">h</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">j</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">k</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">l</P></div>
                 <div id="enter" class="mediumKey mediumKeyStyleLight"><P>↵</P></div>
             </div>
             <div id="fourthLine">
                 <div id="maj" class="mediumKey mediumKeyStyleLight"><P>↑</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>z</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>x</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>c</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>v</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>b</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>n</P></div>
-                <div class="smallKey smallKeyStyleLight"><P>m</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">z</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">x</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">c</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">v</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">b</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">n</P></div>
+                <div class="smallKey smallKeyStyleLight"><P class="letters">m</P></div>
                 <div class="smallKey smallKeyStyleLight"><P>,</P></div>
                 <div class="smallKey smallKeyStyleLight"><P>.</P></div>
                 <div class="smallKey smallKeyStyleLight"><P>?</P></div>
             </div>
             <div id="spacebar" class="spacebarStyleLight"></div>
         </section>
-        <section id="nightModeActivation">
-            <h2 id="switchTitle">Night mode :</h2>
-            <label class="switch">
-                <input id="switch" type="checkbox">
-                <span class="slider round"></span>
-              </label>
-        </section>
+        <div id="switchBtns">
+            <section id="nightModeActivation">
+                <h2 id="switchTitle">Night mode :</h2>
+                <label class="switch">
+                    <input id="switch" type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+            </section>
+            <section id="keysSwitch">
+                <h2 id="switchKeysTitle">Azerty :</h2>
+                <label class="switchKeys">
+                    <input id="switchKeys" type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+            </section>
+        </div>
     </main>
     <script src="./js/nightMode.js"></script>
     <script src="./js/keyboard.js"></script>
+    <script src="./js/azertyToQwerty.js"></script>
 </body>
 </html>

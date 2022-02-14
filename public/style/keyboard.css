@@ -123,16 +123,21 @@ main{
     color: black;
 }
 
+#switchBtns{
+    display: flex;
+    flex-flow: row;
+    justify-content:flex-end;
+    width: 800px;
+    align-self: center;
+}
+
 #nightModeActivation{
-    align-self: flex-end;
-    position: relative;
-    right: 500px;
     display: flex;
     flex-flow: row;
     align-items: center;
 }
 
-/* switch button */
+/* switch button night mode*/
 
 .switch {
     position: relative;
@@ -192,4 +197,30 @@ input:checked + .slider:before {
   
 .slider.round:before {
     border-radius: 50%;
+}
+
+/* switch button qwerty to azerty*/
+
+#keysSwitch{
+    align-self: flex-end;
+    position: relative;
+    right: 500px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+
+.switchKeys {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+    left: 20px;
+}
+  
+.switchKeys input {
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
